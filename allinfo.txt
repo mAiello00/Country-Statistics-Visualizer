@@ -1,0 +1,294 @@
+Afghanistan,AFG,1962,Now
+Africa CAMEU region nes,N/A,1962,2004
+Albania,ALB,1962,Now
+Algeria,DZA,1962,Now
+American Samoa,ASM,1962,Now
+Andorra,AND,1962,Now
+Angola,AGO,1962,Now
+Anguilla,AIA,1981,Now
+Antarctica,ATA,1962,Now
+Antigua and Barbuda,ATA,1962,Now
+Areas nes,N/A,1962,Now
+Argentina,ARG,1962,Now
+Armenia,ARM,1992,Now
+Aruba,ABW,1988,Now
+Australia,AUS,1962,Now
+Austria,AUT,1962,Now
+Azerbaijan,AZE,1992,Now
+Bahamas,BHS,1962,Now
+Bahrain,BHR,1962,Now
+Bangladesh,BGD,1972,Now
+Barbados,BRB,1962,Now
+Belarus,BLR,1992,Now
+Belgium,BEL,1999,Now
+Belgium-Luxembourg,BEL,1962,1998
+Belize,BLZ,1962,Now
+Benin,BEN,1962,Now
+Bermuda,BMU,1962,Now
+Bhutan,BTN,1962,Now
+Bolivia (Plurinational State of),BOL,1962,Now
+Bonaire,BES,2011,Now
+Bosnia Herzegovina,BIH,1992,Now
+Botswana,BWA,2000,Now
+Bouvet Island,N/A,1962,Now
+Br. Antarctic Terr.,N/A,1962,Now
+Br. Indian Ocean Terr.,IOT,1962,Now
+Br. Virgin Isds,VGB,1962,Now
+Brazil,BRA,1962,Now
+Brunei Darussalam,BRN,1962,Now
+Bulgaria,BGR,1962,Now
+Bunkers,N/A,1962,Now
+Burkina Faso,BFA,1962,Now
+Burundi,BDI,1962,Now
+Cabo Verde,CPV,1962,Now
+CACM nes,N/A,1962,2004
+Cambodia,KHM,1962,Now
+Cameroon,CMR,1962,Now
+Canada,CAN,1962,Now
+Caribbean nes,N/A,1962,2004
+Cayman Isds,CYM,1962,Now
+Central African Rep.,CAF,1962,Now
+Chad,TCD,1962,Now
+Chile,CHL,1962,Now
+China,CHN,1962,Now
+China Hong Kong SAR,HKG,1962,Now
+China Macao SAR,MAC,1962,Now
+Christmas Isds,CXR,1962,Now
+Cocos Isds,CCK,1962,Now
+Colombia,COL,1962,Now
+Comoros,COM,1962,Now
+Congo,COG,1962,Now
+Cook Isds,COK,1962,Now
+Costa Rica,CRI,1962,Now
+C“te d'Ivoire,CIV,1962,Now
+Croatia,HRV,1992,Now
+Cuba,CUB,1962,Now
+Cura‡ao,CUW,2010,Now
+Cyprus,CYP,1962,Now
+Czechia,CZE,1993,Now
+Czechoslovakia,CSK,1962,1992
+Dem. People's Rep. of Korea,PRK,1962,Now
+Dem. Rep. of the Congo,COD,1962,Now
+Denmark,DNK,1962,Now
+Djibouti,DJI,1962,Now
+Dominica,DMA,1962,Now
+Dominican Rep.,DOM,1962,Now
+East and West Pakistan,PAK,1962,1971
+Eastern Europe nes,N/A,1962,2004
+Ecuador,ECU,1962,Now
+Egypt,EGY,1962,Now
+El Salvador,SLV,1962,Now
+Equatorial Guinea,GNQ,1962,Now
+Eritrea,ERI,1993,Now
+Estonia,EST,1992,Now
+Ethiopia,ETH,1993,Now
+EU-28,EU2,1962,Now
+Europe EFTA nes,N/A,1962,2004
+Europe EU nes,N/A,1962,2004
+Faeroe Isds,FRO,1962,Now
+Falkland Isds (Malvinas),FLK,1962,Now
+Fiji,FJI,1962,Now
+Finland,FIN,1962,Now
+Fmr Arab Rep. of Yemen,YEM,1962,1990
+Fmr Dem. Rep. of Germany,DDR,1962,1990
+Fmr Dem. Rep. of Vietnam,VDR,1962,1974
+Fmr Dem. Yemen,YMD,1962,1990
+Fmr Ethiopia,ETH,1962,1992
+Fmr Fed. Rep. of Germany,DEU,1962,1990
+Fmr Pacific Isds,PCI,1962,1991
+Fmr Panama excl.Canal Zone,PAN,1962,1977
+Fmr Panama-Canal-Zone,PCZ,1962,1977
+Fmr Rep. of Vietnam,VNM,1962,1974
+Fmr Rhodesia Nyas,N/A,1962,1964
+Fmr Sudan,SDN,1962,2011
+Fmr Tanganyika,N/A,1962,1964
+Fmr USSR,SUN,1962,1991
+Fmr Yugoslavia,YUG,1962,1991
+Fmr Zanzibar and Pemba Isd,N/A,1962,1964
+Fr. South Antarctic Terr.,ATF,1962,Now
+France,FRA,1962,Now
+Free Zones,N/A,1962,Now
+French Guiana,GUF,1962,1995
+French Polynesia,PYF,1962,Now
+FS Micronesia,FSM,1992,Now
+Gabon,GAB,1962,Now
+Gambia,GMB,1962,Now
+Georgia,GEO,1992,Now
+Germany,DEU,1991,Now
+Ghana,GHA,1962,Now
+Gibraltar,GIB,1962,Now
+Greece,GRC,1962,Now
+Greenland,GRL,1962,Now
+Grenada,GRD,1962,Now
+Guadeloupe,GLP,1962,1995
+Guam,GUM,1962,Now
+Guatemala,GTM,1962,Now
+Guinea,GIN,1962,Now
+Guinea-Bissau,GNB,1962,Now
+Guyana,GUY,1962,Now
+Haiti,HTI,1962,Now
+Heard Island and McDonald Islands,HMD,1962,Now
+Holy See (Vatican City State),VAT,2000,Now
+Honduras,HND,1962,Now
+Hungary,HUN,1962,Now
+Iceland,ISL,1962,Now
+India,IND,1975,Now
+India excl. Sikkim,IND,1962,1974
+Indonesia,IDN,1962,Now
+Iran,IRN,1962,Now
+Iraq,IRQ,1962,Now
+Ireland,IRL,1962,Now
+Israel,ISR,1962,Now
+Italy,ITA,1962,Now
+Jamaica,JAM,1962,Now
+Japan,JPN,1962,Now
+Jordan,JOR,1962,Now
+Kazakhstan,KAZ,1992,Now
+Kenya,KEN,1962,Now
+Kiribati,KIR,1962,Now
+Kuwait,KWT,1962,Now
+Kyrgyzstan,KGZ,1992,Now
+LAIA nes,N/A,1962,Now
+Lao People's Dem. Rep.,LAO,1962,Now
+Latvia,LVA,1992,Now
+Lebanon,LBN,1962,Now
+Lesotho,LSO,2000,Now
+Liberia,LBR,1962,Now
+Libya,LBY,1962,Now
+Lithuania,LTU,1992,Now
+Luxembourg,LUX,1999,Now
+Madagascar,MDG,1962,Now
+Malawi,MWI,1965,Now
+Malaysia,MYS,1964,Now
+Maldives,MDV,1962,Now
+Mali,MLI,1962,Now
+Malta,MLT,1962,Now
+Marshall Isds,MHL,1992,Now
+Martinique,MTQ,1962,1995
+Mauritania,MRT,1962,Now
+Mauritius,MUS,1962,Now
+Mayotte,MYT,1962,Now
+Mexico,MEX,1962,Now
+Mongolia,MNG,1962,Now
+Montenegro,MNE,2006,Now
+Montserrat,MSR,1962,Now
+Morocco,MAR,1962,Now
+Mozambique,MOZ,1962,Now
+Myanmar,MMR,1962,Now
+N. Mariana Isds,MNP,1992,Now
+Namibia,NAM,2000,Now
+Nauru,NRU,1962,Now
+Nepal,NPL,1962,Now
+Neth. Antilles,ANT,1988,2010
+Neth. Antilles and Aruba,ANT,1962,1987
+Netherlands,NLD,1962,Now
+Neutral Zone,N/A,1962,Now
+New Caledonia,NCL,1962,Now
+New Zealand,NZL,1962,Now
+Nicaragua,NIC,1962,Now
+Niger,NER,1962,Now
+Nigeria,NGA,1962,Now
+Niue,NIU,1962,Now
+Norfolk Isds,NFK,1962,Now
+North America and Central America nes,N/A,1962,Now
+Northern Africa nes,N/A,1962,2004
+Norway,NOR,1962,Now
+Oceania nes,N/A,1962,Now
+Oman,OMN,1962,Now
+Other Africa nes,N/A,1962,Now
+Other Asia nes,N/A,1962,Now
+Other Europe nes,N/A,1962,Now
+Pakistan,PAK,1972,Now
+Palau,PLW,1992,Now
+Panama,PAN,1978,Now
+Papua New Guinea,PNG,1962,Now
+Paraguay,PRY,1962,Now
+Peninsula Malaysia,N/A,1962,1963
+Peru,PER,1962,Now
+Philippines,PHL,1962,Now
+Pitcairn,PCN,1962,Now
+Poland,POL,1962,Now
+Portugal,PRT,1962,Now
+Qatar,QAT,1962,Now
+Rep. of Korea,KOR,1962,Now
+Rep. of Moldova,MDA,1992,Now
+Rest of America nes,N/A,1962,2004
+R‚union,REU,1962,1995
+Romania,ROU,1962,Now
+Russian Federation,RUS,1992,Now
+Rwanda,RWA,1962,Now
+Ryukyu Isd,N/A,1962,1972
+Sabah,N/A,1962,1963
+Saint Barth‚lemy,BLM,2013,Now
+Saint Helena,SHN,1962,Now
+Saint Kitts and Nevis,KNA,1981,Now
+Saint Kitts Nevis and Anguilla,KNA,1962,1980
+Saint Lucia,LCA,1962,Now
+Saint Maarten,SXM,2010,Now
+Saint Pierre and Miquelon,SPM,1962,Now
+Saint Vincent and the Grenadines,VCT,1962,Now
+Samoa,WSM,1962,Now
+San Marino,SMR,2000,Now
+Sao Tome and Principe,STP,1962,Now
+Sarawak,N/A,1962,1963
+Saudi Arabia,SAU,1962,Now
+Senegal,SEN,1962,Now
+Serbia,SRB,2006,Now
+Serbia and Montenegro,SCG,1992,2005
+Seychelles,SYC,1962,Now
+Sierra Leone,SLE,1962,Now
+Sikkim,N/A,1962,1974
+Singapore,SGP,1962,Now
+Slovakia,SVK,1993,Now
+Slovenia,SVN,1992,Now
+So. African Customs Union,ZAF,1962,1999
+Solomon Isds,SLB,1962,Now
+Somalia,SOM,1962,Now
+South Africa,ZAF,2000,Now
+South Georgia and the South Sandwich Islands,SGS,1962,Now
+South Sudan,SSD,2012,Now
+Spain,ESP,1962,Now
+Special Categories,N/A,1962,Now
+Sri Lanka,LKA,1962,Now
+State of Palestine,PSE,2000,Now
+Sudan,SDN,2012,Now
+Suriname,SUR,1962,Now
+Swaziland,SWZ,2000,Now
+Sweden,SWE,1962,Now
+Switzerland,CHE,1962,Now
+Syria,SYR,1962,Now
+Tajikistan,TJK,1992,Now
+TFYR of Macedonia,MKD,1993,Now
+Thailand,THA,1962,Now
+Timor-Leste,TLS,1962,Now
+Togo,TGO,1962,Now
+Tokelau,TKL,1962,Now
+Tonga,TON,1962,Now
+Trinidad and Tobago,TTO,1962,Now
+Tunisia,TUN,1962,Now
+Turkey,TUR,1962,Now
+Turkmenistan,TKM,1992,Now
+Turks and Caicos Isds,TCA,1962,Now
+Tuvalu,TUV,1962,Now
+Uganda,UGA,1962,Now
+Ukraine,UKR,1992,Now
+United Arab Emirates,ARE,1962,Now
+United Kingdom,GBR,1962,Now
+United Rep. of Tanzania,TZA,1965,Now
+United States Minor Outlying Islands,UMI,1962,Now
+Uruguay,URY,1962,Now
+US Misc. Pacific Isds,N/A,1962,1962
+US Virgin Isds,VIR,1962,1980
+USA,USA,1981,Now
+USA (before 1981),USA,1962,1980
+Uzbekistan,UZB,1992,Now
+Vanuatu,VUT,1962,Now
+Venezuela,VEN,1962,Now
+Viet Nam,VNM,1975,Now
+Wallis and Futuna Isds,WLF,1962,Now
+Western Asia nes,N/A,1962,2004
+Western Sahara,ESH,1962,Now
+World,WLD,1962,Now
+Yemen,YEM,1991,Now
+Zambia,ZMB,1965,Now
+Zimbabwe,ZWE,1965,Now

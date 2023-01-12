@@ -11,13 +11,16 @@ public class dataConverter
 {
 	private int pop = 0;
 	private double CO2 = 0;
-	private double forestArea = 0;
-	private double energyUse = 0;
-	private double GDP = 0;
 	private String thisCountry;
 	private int thisStartDate;
 	private int thisEndDate;
 	
+	/**
+	 * Sets the country, start date, and end date so we can collect information from the database
+	 * @param country name of the country as a string
+	 * @param startDate date we start at as an integer
+	 * @param endDate date we end at as an integer
+	 */
 	public dataConverter(String country, int startDate, int endDate)
 	{
 		thisCountry = country;
@@ -25,118 +28,79 @@ public class dataConverter
 		thisEndDate = endDate;
 	}
 	
-	public int[] getPopArray()
-	{	
+	/**
+	 * Gets the JSon array from the API_Reader class and converts it into an array of integers
+	 * @return popArray is the array containing integer values for the population of the country over the given ime range
+	 */
+	public int[] popData()
+	{
 		API_Reader reader = new API_Reader(thisCountry, thisStartDate, thisEndDate);
-		JsonArray popJson = reader.retrievePopData();
-		int size = popJson.size();
+		JsonArray popJson = reader.setPopLink();
 		int sizeOfResults = popJson.get(1).getAsJsonArray().size();
-		int year;
 		int[] popArray = new int[sizeOfResults];
 		
+		//Loop through the JSon array we got and create an integer array with the values
 		for(int i = 0; i < sizeOfResults; i++)
 		{
-			if (popJson.get(1).getAsJsonArray().get(i).getAsJsonObject().get("value").isJsonNull())
-				pop = 0;
-			else
-				pop = popJson.get(1).getAsJsonArray().get(i).getAsJsonObject().get("value").getAsInt();
-				
-			popArray[i] = pop;
-			System.out.println(popArray[i]);
+			try
+			{
+				//If the value of the array is null then we set the position in the integer array to be 0
+				if (popJson.get(1).getAsJsonArray().get(i).getAsJsonObject().get("value").isJsonNull())
+					pop = 0;
+				else//Otherwise we set the value in the JSon array to the integer array
+					pop = popJson.get(1).getAsJsonArray().get(i).getAsJsonObject().get("value").getAsInt();
+					
+				popArray[i] = pop;
+			}
+			catch(Exception e)
+			{
+				if (popJson.get(1).getAsJsonArray().get(i).getAsJsonObject().get("value").isJsonNull())
+					pop = 0;
+				else
+					pop = 0;
+					
+				popArray[i] = pop;
+			}
 		}
 		
 		return popArray;
 	}
 	
-	public double[] getCO2Array()
+	/**
+	 * This method gets the type of analysis as a string and determines what type of informaton to retrieve from the repository. Once it gets a Json array, the data is converted
+	 * into an array of doubles and returned.
+	 * @param s the string containing the type of analysis that we are performing. Determines what we retrieve from the data repository
+	 * @return doubleArray the array containing all the data for the country over the given time frame.
+	 */
+	public double[] doubleData(String s)
 	{
 		API_Reader reader = new API_Reader(thisCountry, thisStartDate, thisEndDate);
-		JsonArray CO2Json = reader.retrieveCO2();
-		int sizeCO2 = CO2Json.size();
-		int sizeOfResultsCO2 = CO2Json.get(1).getAsJsonArray().size();
-		int year;
-		double[] CO2Array = new double[sizeOfResultsCO2];
+		JsonArray doubleJson;
+		//Checks the input string to determine what type of analysis we are conducting and generates  Json array accordingly by calling methods in API_Reader
+		if(s == "CO2")
+			doubleJson = reader.setCO2Link();
+		else if(s == "forest")
+			doubleJson = reader.setForestLink();
+		else if(s == "GDP")
+			doubleJson = reader.setGDPLink();
+		else
+			doubleJson = reader.setEnergyUseLink();
 		
-		for(int i = 0; i < sizeOfResultsCO2; i++)
+		int sJsonResults = doubleJson.get(1).getAsJsonArray().size();
+		double[] doubleArray = new double[sJsonResults];
+		
+		//Loop through the JSon array we got and create an double array with the values
+		for(int i = 0; i < sJsonResults; i++)
 		{
-			if (CO2Json.get(1).getAsJsonArray().get(i).getAsJsonObject().get("value").isJsonNull())
+			//If the value of the array is null then we set the position in the double array to be 0
+			if (doubleJson.get(1).getAsJsonArray().get(i).getAsJsonObject().get("value").isJsonNull())
 				CO2 = 0;
-			else
-				CO2 = CO2Json.get(1).getAsJsonArray().get(i).getAsJsonObject().get("value").getAsDouble();
+			else//Otherwise we set the value in the JSon array to the double array
+				CO2 = doubleJson.get(1).getAsJsonArray().get(i).getAsJsonObject().get("value").getAsDouble();
 				
-			CO2Array[i] = CO2;
-			System.out.println(CO2Array[i]);
+			doubleArray[i] = CO2;
 		}
 		
-		return CO2Array;
-	}
-	
-	public double[] getForestArea()
-	{
-		API_Reader reader = new API_Reader(thisCountry, thisStartDate, thisEndDate);
-		JsonArray forestJson = reader.retrieveForestArea();
-		int sizeforest = forestJson.size();
-		int sizeOfResultsforest = forestJson.get(1).getAsJsonArray().size();
-		int year;
-		double[] forestArray = new double[sizeOfResultsforest];
-		
-		for(int i = 0; i < sizeOfResultsforest; i++)
-		{
-			if (forestJson.get(1).getAsJsonArray().get(i).getAsJsonObject().get("value").isJsonNull())
-				forestArea = 0;
-			else
-				forestArea = forestJson.get(1).getAsJsonArray().get(i).getAsJsonObject().get("value").getAsDouble();
-				
-			forestArray[i] = forestArea;
-			System.out.println(forestArray[i]);
-		}
-		
-		return forestArray;
-	}
-	
-	public double[] getEnergyUse()
-	{
-		API_Reader reader = new API_Reader(thisCountry, thisStartDate, thisEndDate);
-		JsonArray energyJson = reader.retrieveEnergyUseCapita();
-		int sizeEnergy = energyJson.size();
-		int sizeOfResultsEnergy = energyJson.get(1).getAsJsonArray().size();
-		int year;
-		double[] energyArray = new double[sizeOfResultsEnergy];
-		
-		for(int i = 0; i < sizeOfResultsEnergy; i++)
-		{
-			if (energyJson.get(1).getAsJsonArray().get(i).getAsJsonObject().get("value").isJsonNull())
-				energyUse = 0;
-			else
-				energyUse = energyJson.get(1).getAsJsonArray().get(i).getAsJsonObject().get("value").getAsDouble();
-				
-			energyArray[i] = energyUse;
-			System.out.println(energyArray[i]);
-		}
-		
-		return energyArray;
-	}
-	
-	public double[] getGDP()
-	{
-		API_Reader reader = new API_Reader(thisCountry, thisStartDate, thisEndDate);
-		JsonArray GDPJson = reader.retrieveGDP_Capita();
-		int sizeGDP = GDPJson.size();
-		int sizeOfResultsGDP = GDPJson.get(1).getAsJsonArray().size();
-		int year;
-		double[] GDPArray = new double[sizeOfResultsGDP];
-		
-		for(int i = 0; i < sizeOfResultsGDP; i++)
-		{
-			if (GDPJson.get(1).getAsJsonArray().get(i).getAsJsonObject().get("value").isJsonNull())
-				GDP = 0;
-			else
-				GDP = GDPJson.get(1).getAsJsonArray().get(i).getAsJsonObject().get("value").getAsDouble();
-				
-			GDPArray[i] = GDP;
-			System.out.println(GDPArray[i]);
-		}
-		
-		return GDPArray;
+		return doubleArray;
 	}
 }
